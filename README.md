@@ -7,17 +7,17 @@ In this lab, we'll use what we've learned about inheritance to model a zoo using
 
 ## Objectives
 
-In this lesson, we will learn how to:
+You will be able to:
 
 * Use inheritance to to write D.R.Y. code
 * Understand the relationship between subclasses and superclasses
 * Create Object-Oriented data models that describe the real world with classes and subclasses
 
-### Modeling a Zoo
+## Modeling a Zoo
 
 Consider the following scenario:  You've been hired by a zookeeper to build a program that keeps track of all the animals in the zoo.  This is a great opportunity to make use of Inheritance and Object-Oriented Programming!
 
-### Creating an Abstract Superclass
+## Creating an Abstract Superclass
 
 Start by creating an abstract superclass, `Animal`.  When our program is complete, all subclasses of `Animal` will have the following attributes:
 
@@ -264,7 +264,7 @@ feed_animals(zoo)
     name the elephant thinks plants is Yummy!
     name the elephant thinks plants is Yummy!
     name the gorilla thinks plants is Yummy!
-    
+
 
 That looks correct--the two species that we have that aren't nocturnal are elephants and gorillas.  
 
@@ -280,13 +280,13 @@ feed_animals(zoo, 'Night')
     name the tiger thinks meat is Yummy!
     name the tiger thinks meat is Yummy!
     name the tiger thinks meat is Yummy!
-    
+
 
 Thats it! You've used OOP and inheritance to build a working function to help the zookeeper feed his animals the right food at the correct times!
 
-# Conclusion
+## Summary
 
-In this lab, we learned how to:
+In this lab, you learned how to:
 
 * Use inheritance to to write D.R.Y. code
 * Understand the relationship between subclasses and superclasses
