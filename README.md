@@ -3,7 +3,7 @@
 
 ## Introduction
 
-In this lab, we'll use what we've learned about inheritance to model a zoo using superclasses, subclasses, and maybe even an abstract superclass!
+In this lab, you'll use what you've learned about inheritance to model a zoo using superclasses, subclasses, and maybe even an abstract superclass!
 
 ## Objectives
 
@@ -64,7 +64,7 @@ class Animal(object):
             print("I don't eat this!")
 ```
 
-Great! Now that we have our Abstract Superclass, we can begin building out the specific animal classes.
+Great! Now that you have our Abstract Superclass, you can begin building out the specific animal classes.
 
 In the cell below, complete the `Elephant` class.  This class should:
 
@@ -128,7 +128,7 @@ class Raccoon(Animal):
         self.nocturnal = True
 ```
 
-Finally, let's create a `Gorilla` class.  This class should:
+Finally, create a `Gorilla` class.  This class should:
 
 * Subclass `Animal`
 * Have a species of `gorilla`
@@ -150,9 +150,7 @@ class Gorilla(Animal):
 
 ## Using Our Objects
 
-Now that we've created classes to model each of the animals in the zoo, we'll write a function that helps us keep track of when to feed different animals.  But, before we can do that, we need to populate our zoo!
-
-In the cell below, create an array called `zoo`.  Then, complete the `add_animal_to_zoo` function. 
+Now it's time to populate the zoo! To ease the creation of animal instances, create a function `add_animal_to_zoo`.
 
 This function should take in the following parameters:
 
@@ -186,9 +184,9 @@ def add_animal_to_zoo(zoo, animal_type, name, weight):
     return zoo
 ```
 
-Great! Now, let's add some animals to our zoo. 
+Great! Now, add some animals to your zoo. 
 
-Create the following animals and add them to our zoo.  The names and weights are up to you.
+Create the following animals and add them to your zoo.  The names and weights are up to you.
 
 * 2 Elephants
 * 2 Raccons
@@ -221,9 +219,9 @@ zoo
 
 
 
-Great! Now that we have a populated zoo, we can do what the zookeeper hired us to do--write a program that feeds the correct animals the right food at the right times!
+Great! Now that you have a populated zoo, you can do what the zookeeper hired you to do--write a program that feeds the correct animals the right food at the right times!
 
-To do this, we'll write a function called `feed_animals`.  This function should take in two arguments:
+To do this, write a function called `feed_animals`.  This function should take in two arguments:
 
 * `zoo`, the zoo array containing all the animals
 * `time`, which can be `'Day'` or `'Night'`.  This should default to day if nothing is entered for `time`.
@@ -254,7 +252,7 @@ def feed_animals(zoo, time='Day'):
                     animal.eat('plants')
 ```
 
-Now, let's test out our program.  Call the function for a daytime feeding below.
+Now, test out your program.  Call the function for a daytime feeding below.
 
 
 ```python
@@ -266,7 +264,7 @@ feed_animals(zoo)
     name the gorilla thinks plants is Yummy!
 
 
-That looks correct--the two species that we have that aren't nocturnal are elephants and gorillas.  
+If the elephants and gorrilla's were fed then things should be good!
 
 In the cell below, call `feed_animals` again, but this time set `time='Night'`
 
