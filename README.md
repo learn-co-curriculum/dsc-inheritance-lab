@@ -9,7 +9,7 @@ In this lab, you'll use what you've learned about inheritance to model a zoo usi
 
 You will be able to:
 
-* Use inheritance to to write D.R.Y. code
+* Use inheritance to write D.R.Y. code
 * Understand the relationship between subclasses and superclasses
 * Create Object-Oriented data models that describe the real world with classes and subclasses
 
