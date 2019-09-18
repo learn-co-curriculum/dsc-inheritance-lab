@@ -23,7 +23,7 @@ Start by creating an abstract superclass, `Animal`.  When our program is complet
 
 * `name`, which is a string set at instantation time
 * `size`, which can be `'small'`, `'medium'`, `'large'`, or `'enormous'`.
-* `weight`, which is an integer set at integer set at instantiation time.
+* `weight`, which is an integer set at instantiation time.
 * `species`, a string that tells us the species of the animal
 * `food_type`, which can be `'herbivore'`, `'carnivore'`, or `'omnivore'`
 * `nocturnal`, a boolean value that is `True` if the animal sleeps during the day, otherwise `False`
@@ -161,16 +161,26 @@ def feed_animals(zoo, time='Day'):
 
 Now, test out your program.  Call the function for a daytime feeding below.
 
-If the elephants and gorrilla's were fed then things should be good!
+
+```python
+
+```
+
+If the elephants and gorrillas were fed then things should be good!
 
 In the cell below, call `feed_animals` again, but this time set `time='Night'`
 
-Thats it! You've used OOP and inheritance to build a working function to help the zookeeper feed his animals the right food at the correct times!
+
+```python
+
+```
+
+That's it! You've used OOP and inheritance to build a working function to help the zookeeper feed his animals the right food at the correct times!
 
 ## Summary
 
 In this lab, you learned how to:
 
-* Use inheritance to to write D.R.Y. code
+* Use inheritance to write D.R.Y. code
 * Understand the relationship between subclasses and superclasses
 * Create Object-Oriented data models that describe the real world with classes and subclasses
