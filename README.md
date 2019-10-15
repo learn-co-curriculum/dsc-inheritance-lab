@@ -9,9 +9,9 @@ In this lab, you'll use what you've learned about inheritance to model a zoo usi
 
 You will be able to:
 
-* Use inheritance to write D.R.Y. code
-* Understand the relationship between subclasses and superclasses
-* Create Object-Oriented data models that describe the real world with classes and subclasses
+* Use inheritance to write nonredundant code
+* Describe the relationship between subclasses and superclasses
+* Create a domain model using OOP
 
 ## Modeling a Zoo
 
@@ -351,8 +351,4 @@ That's it! You've used OOP and inheritance to build a working function to help t
 
 ## Summary
 
-In this lab, you learned how to:
-
-* Use inheritance to write D.R.Y. code
-* Understand the relationship between subclasses and superclasses
-* Create Object-Oriented data models that describe the real world with classes and subclasses
+In this lab, you modeled a zoo and learned how to use inheritance to write nonredundant code, describe the relationship between subclasses and superclasses, and create a domain model using OOP.
