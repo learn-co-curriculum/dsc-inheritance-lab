@@ -159,7 +159,7 @@ Finally, create a `Gorilla()` class. This class should:
 
 * subclass `Animal` 
 * have a species of `gorilla` 
-* have a size of `'Large'` 
+* have a size of `'large'` 
 * have a food type of `'herbivore'` 
 * set nocturnal to `False` 
 
